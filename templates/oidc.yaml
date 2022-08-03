@@ -59,6 +59,11 @@ data:
     }
 
     security {
+        scripting{
+            sandbox{
+                enabled = false
+            }
+        }
         auth {
             providers {
                 oidc {
